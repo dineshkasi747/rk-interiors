@@ -5,7 +5,7 @@ import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { prefersReducedMotion } from "@/lib/utils";
 
 /* ── Config ── */
-const TOTAL_FRAMES = 240;
+const TOTAL_FRAMES = 215;
 const FRAME_PATH = "/hero-frames/frame_";
 const FRAME_EXT = ".jpg";
 
