@@ -73,7 +73,7 @@ export default function ThreeArchitecturalFragment() {
         <Lighting />
         
         <Suspense fallback={null}>
-          <Model url="/models/villa.glb" />
+          <Model url="https://media.githubusercontent.com/media/dineshkasi747/rk-interiors/main/public/models/villa.glb" />
         </Suspense>
         
         <OrbitControls
@@ -95,4 +95,4 @@ export default function ThreeArchitecturalFragment() {
 }
 
 // Pre-load model to prevent latency
-useGLTF.preload("/models/villa.glb");
+useGLTF.preload("https://media.githubusercontent.com/media/dineshkasi747/rk-interiors/main/public/models/villa.glb");
